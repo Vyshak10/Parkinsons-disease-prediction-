@@ -1,4 +1,4 @@
-#Parkinson's Disease Prediction using Machine Learning
+Parkinson's Disease Prediction using Machine Learning
 🧠 Project Overview
 This project aims to develop a predictive machine learning model to detect Parkinson’s disease using Support Vector Machines (SVM). Parkinson’s disease is a progressive neurological disorder, and early diagnosis can significantly impact treatment outcomes. By analyzing clinical and biomedical voice data, the model classifies individuals as either having Parkinson’s disease or being healthy.
 
@@ -65,3 +65,9 @@ Vocal measurements can serve as strong indicators for Parkinson’s detection
 
 Early prediction models can support healthcare diagnosis and decision-making
 
+🚀 Future Improvements
+Test with larger, more diverse datasets for better generalization
+
+Deploy the model via a web or mobile interface for practical use
+
+Integrate other ML algorithms (e.g., Random Forest, XGBoost) for comparison
