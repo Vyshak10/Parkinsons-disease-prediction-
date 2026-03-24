@@ -1,0 +1,74 @@
+/* Custom styling to supplement Bootstrap and meet WOW aesthetic requirements */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+
+/* Glassmorphism/Modern aesthetic for Cards */
+.card {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.1) !important;
+}
+
+/* Custom inputs */
+.form-control {
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    border: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+.form-label {
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+/* Navbar */
+.custom-navbar {
+    background: linear-gradient(90deg, #0d6efd 0%, #0056b3 100%) !important;
+}
+
+/* Alerts and buttons */
+.alert {
+    border: none;
+    border-radius: 0.75rem;
+}
+
+.alert-success {
+    background: linear-gradient(to right, #d1e7dd, #badbcc);
+    color: #0f5132;
+    border-left: 5px solid #198754;
+}
+
+.alert-danger {
+    background: linear-gradient(to right, #f8d7da, #f5c2c7);
+    color: #842029;
+    border-left: 5px solid #dc3545;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #0d6efd 0%, #0a58ca 100%);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #0a58ca 0%, #084298 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(13, 110, 253, 0.2);
+}
